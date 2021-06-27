@@ -1,2 +1,8 @@
-package adapter;public interface Adapter {
+package adapter;
+
+public interface Adapter {
+
+    Float doubleNumber(Float number);
+
+    Float halfNumber(Float number);
 }
